@@ -21,13 +21,13 @@ RangeIndex: 159 entries, 0 to 158
 Data columns (total 7 columns):
 
 Each instance has 7 values of a fish as mentioned below:
-1.Weight in cm,
-2.Vertical length in cm defined by Length1
-3.Diagonal length in cm defined by Length2
-4.Cross length in cm defined by Length3
-5.Height in cm
-6.Diagonal width in cm defined by Width
-7.Species to which the fish belongs
+1.Weight in cm\
+2.Vertical length in cm defined by Length1\
+3.Diagonal length in cm defined by Length2\
+4.Cross length in cm defined by Length3\
+5.Height in cm\
+6.Diagonal width in cm defined by Width\
+7.Species to which the fish belongs\
 
 ### Prediction and accuracy
 There are 7 fish breeds and our model is designed to make prediction of these species to which a test fish belongs.
