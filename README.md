@@ -4,29 +4,30 @@ I have created a logistic regression model for fish species dataset. I have pred
 The main aim of lab4 activity given to me is to launch my model in Heroku application.Hence I have kept my model simple to logistic regression.Although I tried models like decision tree,KNN and random forest,for the given training and test data,logistic regression model performed better.Hence I finalised this model.
 ### Description of the dataset
 The dataset consists of dimensions and species name of 160 different fishes.The distribution is :
-Species    count
-Perch        56
-Bream        35
-Roach        20
-Pike         17
-Smelt        14
-Parkki       11
-Whitefish     6
+|Species|  |count|
+|----------|-----|
+|Perch    ||  56 |
+|Bream    ||  35 |
+|Roach    ||  20 |
+|Pike     ||  17 |
+|Smelt    ||  14 |
+|Parkki   ||  11 |
+|Whitefish||  6  |
 
 No of instances:160
 Attribute information:
 <class 'pandas.core.frame.DataFrame'>
 RangeIndex: 159 entries, 0 to 158
 Data columns (total 7 columns):
- #   Column   Non-Null Count  Dtype  
----  ------   --------------  -----  
- 0   Weight   159 non-null    float64
- 1   Length1  159 non-null    float64
- 2   Length2  159 non-null    float64
- 3   Length3  159 non-null    float64
- 4   Height   159 non-null    float64
- 5   Width    159 non-null    float64
- 6   Species  159 non-null    object 
+ #   |Column|   |Non-Null Count|  |Dtype|  
+|---|  |------|   |--------------|  |-----|  
+| 0  |  Weight|  | 159 non-null|  |float64|
+| 1  |  Length1| | 159 non-null|  |float64|
+| 2  | Length2|  |159 non-null |  | float64|
+| 3  | Length3|  |159 non-null |  | float64|
+| 4  | Height|   |159 non-null |  |float64|
+| 5  |Width |    |159 non-null |  |float64|
+| 6  | Species | 159 non-null  |  |object|
 dtypes: float64(6), object(1)
 memory usage: 8.8+ KB
 
